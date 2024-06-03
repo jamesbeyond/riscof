@@ -27,5 +27,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           file: .github/act-docker/Dockerfile
-          tags: ghcr.io/riscv-software-src/riscof/act:latest
+          tags: ghcr.io/jamesbeyond/riscof/act:latest
           push: true
